@@ -12,11 +12,13 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="👉 Klick hier & hol dir Cashback 💸">
 
-  <!-- Sofortige Weiterleitung -->
-  <meta http-equiv="refresh" content="0; url=https://www.topcashback.de/ref/xanderfox">
+  <!-- Weiterleitung mit kurzem Delay -->
+  <meta http-equiv="refresh" content="1; url=https://www.topcashback.de/ref/xanderfox">
   <script>
-    // Fallback für Browser ohne Meta Refresh
-    window.location.href = "https://www.topcashback.de/ref/xanderfox";
+    // Fallback: 1 Sekunde warten, dann weiterleiten
+    setTimeout(function() {
+      window.location.href = "https://www.topcashback.de/ref/xanderfox";
+    }, 1000);
   </script>
 </head>
 <body>
